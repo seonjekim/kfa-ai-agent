@@ -1,0 +1,52 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyMj/Nx1HLKmdDQtjQAs7bCM",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/seonjekim/kfa-ai-agent/blob/main/%EC%82%AC%EC%A0%84%EA%B3%BC%EC%A0%9C_%EB%A6%AC%ED%8F%AC%ED%8A%B8%EB%8D%B0%EC%9D%B4%ED%84%B0%EC%86%8C%EC%8A%A4_%EC%B0%BE%EA%B8%B0\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "# 사전 과제: LS ELETIC (010120) 리포트 데이터 소스 조사\n",
+        "\n",
+        "- **관심 종목:** LS ELETIC\n",
+        "- **증권사:** 대신증권\n",
+        "- **리포트 제목:** 여전히 업사이클 초기단계일 뿐. 업사이드 존재\n",
+        "- **리포트 발행일:** 2026.10.23\n",
+        "- **증권사 리포트 링크:** [대신증권 (LS ELETIC (010120)) 리포트](https://stock.naver.com/research/company/96999)\n",
+        "\n",
+        "## 차트별 데이터 소스 조사\n",
+        "\n",
+        "| 차트 내용 | 원천 출처 | 링크 | 기준 날짜 | 갱신 주기 | 무료/유료 | 수집 방법 |\n",
+        "|:---:|:---:|:---:|:---:|:---:|:---:|:---:|\n",
+        "| 미국 전력기기 PPI 추이 (전력·특수 변압기 / 전력·배전 변압기 / 배전반·개폐기·차단기) | FRED, 대신증권 | [FRED](https://fred.stlouisfed.org) | 2021년 1월=100 기준, 2021년~2026년(세부 확인 필요) | 월별 | 무료 | 2. 파이썬 라이브러리 (pandas_datareader) |\n",
+        "| 미국의 국가별 배전기기 수입 (한국, 중국, 멕시코, 유럽, 기타 / 단위: 백만달러) | USITC, 대신증권 | [USITC DataWeb](https://dataweb.usitc.gov) | 2020년~2026년(세부 확인 필요) | 월별 | 무료(API는 Login.gov 계정 필요) | 1. 공식 API |"
+      ],
+      "metadata": {
+        "id": "0CoalwNaWl23"
+      }
+    }
+  ]
+}
